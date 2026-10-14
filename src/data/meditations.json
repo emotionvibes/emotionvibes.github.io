@@ -1,0 +1,86 @@
+[
+  {
+    "category": 0,
+    "image": "",
+    "duration": "",
+    "url": "",
+    "ru": {
+      "title": "Индивидуальные медитации",
+      "body": "Описание, расписание и ссылка появятся после утверждения."
+    },
+    "lt": {
+      "title": "Individualios meditacijos",
+      "body": "Aprašymą, laiką ir nuorodą pridėsime patvirtinus informaciją."
+    }
+  },
+  {
+    "category": 1,
+    "image": "",
+    "duration": "",
+    "url": "",
+    "ru": {
+      "title": "Групповые медитации",
+      "body": "Описание, расписание и ссылка появятся после утверждения."
+    },
+    "lt": {
+      "title": "Grupinės meditacijos",
+      "body": "Aprašymą, laiką ir nuorodą pridėsime patvirtinus informaciją."
+    }
+  },
+  {
+    "category": 2,
+    "image": "",
+    "duration": "",
+    "url": "",
+    "ru": {
+      "title": "Авторские медитации",
+      "body": "Описание, расписание и ссылка появятся после утверждения."
+    },
+    "lt": {
+      "title": "Autorinės meditacijos",
+      "body": "Aprašymą, laiką ir nuorodą pridėsime patvirtinus informaciją."
+    }
+  },
+  {
+    "category": 3,
+    "image": "",
+    "duration": "",
+    "url": "",
+    "ru": {
+      "title": "Активные медитации Ошо",
+      "body": "Описание, расписание и ссылка появятся после утверждения."
+    },
+    "lt": {
+      "title": "Aktyviosios Ošo meditacijos",
+      "body": "Aprašymą, laiką ir nuorodą pridėsime patvirtinus informaciją."
+    }
+  },
+  {
+    "category": 4,
+    "image": "",
+    "duration": "",
+    "url": "",
+    "ru": {
+      "title": "Короткие практики осознанности",
+      "body": "Описание, расписание и ссылка появятся после утверждения."
+    },
+    "lt": {
+      "title": "Trumpos sąmoningumo praktikos",
+      "body": "Aprašymą, laiką ir nuorodą pridėsime patvirtinus informaciją."
+    }
+  },
+  {
+    "category": 5,
+    "image": "",
+    "duration": "",
+    "url": "",
+    "ru": {
+      "title": "Программы и циклы",
+      "body": "Описание, расписание и ссылка появятся после утверждения."
+    },
+    "lt": {
+      "title": "Programos ir ciklai",
+      "body": "Aprašymą, laiką ir nuorodą pridėsime patvirtinus informaciją."
+    }
+  }
+]

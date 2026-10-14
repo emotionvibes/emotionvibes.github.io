@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "a-small-pause",
+    "date": "2026-10-14",
+    "category": 0,
+    "demo": true,
+    "ru": {
+      "title": "Маленькая пауза",
+      "body": "Иногда достаточно на минуту отложить дела. Посмотреть в окно. Почувствовать, что этот момент уже здесь."
+    },
+    "lt": {
+      "title": "Maža pauzė",
+      "body": "Kartais pakanka minutei atidėti darbus. Pažvelgti pro langą. Pajusti, kad ši akimirka jau čia."
+    }
+  }
+]

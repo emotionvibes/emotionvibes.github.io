@@ -1,0 +1,357 @@
+media:
+  input: public/images
+  output: /images
+content:
+- name: questions
+  label: Klausimai ir atsakymai
+  type: file
+  path: src/data/questions.json
+  format: json
+  list: true
+  fields:
+  - name: slug
+    label: Unikalus adresas (lotyniškos raidės)
+    type: string
+  - name: category
+    label: Temos numeris (0, 1, 2)
+    type: number
+  - name: demo
+    label: Pavyzdinis turinys
+    type: boolean
+  - &id001
+    name: ru
+    label: RU
+    type: object
+    fields:
+    - name: title
+      label: Pavadinimas
+      type: string
+    - name: body
+      label: Tekstas
+      type: text
+  - &id002
+    name: lt
+    label: LT
+    type: object
+    fields:
+    - name: title
+      label: Pavadinimas
+      type: string
+    - name: body
+      label: Tekstas
+      type: text
+- name: thoughts
+  label: Mano mintys
+  type: file
+  path: src/data/thoughts.json
+  format: json
+  list: true
+  fields:
+  - name: slug
+    label: Unikalus adresas
+    type: string
+  - name: date
+    label: Data (YYYY-MM-DD)
+    type: string
+  - name: category
+    label: Temos numeris
+    type: number
+  - name: demo
+    label: Pavyzdinis turinys
+    type: boolean
+  - *id001
+  - *id002
+- name: music
+  label: Muzika ir grojaraščiai
+  type: file
+  path: src/data/music.json
+  format: json
+  list: true
+  fields:
+  - name: videoId
+    label: YouTube vaizdo ID (11 simbolių)
+    type: string
+  - name: playlistUrl
+    label: Grojaraščio HTTPS nuoroda
+    type: string
+  - name: category
+    label: Kategorija
+    type: string
+  - name: date
+    label: Data (YYYY-MM-DD)
+    type: string
+  - *id001
+  - *id002
+- name: meditations
+  label: Meditacijos
+  type: file
+  path: src/data/meditations.json
+  format: json
+  list: true
+  fields:
+  - name: category
+    label: Kategorijos numeris
+    type: number
+  - name: image
+    label: Nuotrauka
+    type: image
+  - name: duration
+    label: Trukmė
+    type: string
+  - name: url
+    label: Registracijos HTTPS nuoroda
+    type: string
+  - *id001
+  - *id002
+- name: settings
+  label: Logotipai, nuotraukos ir kontaktai
+  type: file
+  path: src/data/settings.json
+  fields:
+  - name: telegram
+    label: telegram
+    type: string
+  - name: youtube
+    label: youtube
+    type: string
+  - name: portrait
+    label: portrait
+    type: image
+  - name: aboutPhoto
+    label: aboutPhoto
+    type: image
+  - name: logoLight
+    label: logoLight
+    type: image
+  - name: logoDark
+    label: logoDark
+    type: image
+  - name: favicon
+    label: favicon
+    type: image
+- name: translations
+  label: Visi RU ir LT svetainės tekstai
+  type: file
+  path: src/data/site.json
+  fields:
+  - name: ru
+    label: RU
+    type: object
+    fields:
+    - name: nav
+      label: nav
+      type: string
+      list: true
+    - name: hero
+      label: hero
+      type: text
+    - name: tagline
+      label: tagline
+      type: text
+    - name: intro
+      label: intro
+      type: text
+    - name: explore
+      label: explore
+      type: text
+    - name: sample
+      label: sample
+      type: text
+    - name: photo
+      label: photo
+      type: text
+    - name: about
+      label: about
+      type: text
+    - name: meditations
+      label: meditations
+      type: string
+      list: true
+    - name: services
+      label: services
+      type: string
+      list: true
+    - name: details
+      label: details
+      type: text
+    - name: prices
+      label: prices
+      type: text
+    - name: musicIntro
+      label: musicIntro
+      type: text
+    - name: musicCats
+      label: musicCats
+      type: string
+      list: true
+    - name: emptyMusic
+      label: emptyMusic
+      type: text
+    - name: search
+      label: search
+      type: text
+    - name: all
+      label: all
+      type: text
+    - name: none
+      label: none
+      type: text
+    - name: ask
+      label: ask
+      type: text
+    - name: askInfo
+      label: askInfo
+      type: text
+    - name: contactEmpty
+      label: contactEmpty
+      type: text
+    - name: read
+      label: read
+      type: text
+    - name: back
+      label: back
+      type: text
+    - name: share
+      label: share
+      type: text
+    - name: copied
+      label: copied
+      type: text
+    - name: preview
+      label: preview
+      type: text
+    - name: privacy
+      label: privacy
+      type: text
+    - name: privacyText
+      label: privacyText
+      type: text
+    - name: disable
+      label: disable
+      type: text
+    - name: play
+      label: play
+      type: text
+    - name: latest
+      label: latest
+      type: text
+    - name: menu
+      label: menu
+      type: text
+  - name: lt
+    label: LT
+    type: object
+    fields:
+    - name: nav
+      label: nav
+      type: string
+      list: true
+    - name: hero
+      label: hero
+      type: text
+    - name: tagline
+      label: tagline
+      type: text
+    - name: intro
+      label: intro
+      type: text
+    - name: explore
+      label: explore
+      type: text
+    - name: sample
+      label: sample
+      type: text
+    - name: photo
+      label: photo
+      type: text
+    - name: about
+      label: about
+      type: text
+    - name: meditations
+      label: meditations
+      type: string
+      list: true
+    - name: services
+      label: services
+      type: string
+      list: true
+    - name: details
+      label: details
+      type: text
+    - name: prices
+      label: prices
+      type: text
+    - name: musicIntro
+      label: musicIntro
+      type: text
+    - name: musicCats
+      label: musicCats
+      type: string
+      list: true
+    - name: emptyMusic
+      label: emptyMusic
+      type: text
+    - name: search
+      label: search
+      type: text
+    - name: all
+      label: all
+      type: text
+    - name: none
+      label: none
+      type: text
+    - name: ask
+      label: ask
+      type: text
+    - name: askInfo
+      label: askInfo
+      type: text
+    - name: contactEmpty
+      label: contactEmpty
+      type: text
+    - name: read
+      label: read
+      type: text
+    - name: back
+      label: back
+      type: text
+    - name: share
+      label: share
+      type: text
+    - name: copied
+      label: copied
+      type: text
+    - name: preview
+      label: preview
+      type: text
+    - name: privacy
+      label: privacy
+      type: text
+    - name: privacyText
+      label: privacyText
+      type: text
+    - name: disable
+      label: disable
+      type: text
+    - name: play
+      label: play
+      type: text
+    - name: latest
+      label: latest
+      type: text
+    - name: menu
+      label: menu
+      type: text
+- name: categories
+  label: Klausimų temos
+  type: file
+  path: src/data/categories.json
+  fields:
+  - name: ru
+    label: RU
+    type: string
+    list: true
+  - name: lt
+    label: LT
+    type: string
+    list: true

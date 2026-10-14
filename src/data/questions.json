@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "begin",
+    "category": 1,
+    "demo": true,
+    "ru": {
+      "title": "Можно ли начать с нескольких минут?",
+      "body": "Да. Можно выделить короткое время, заметить опору под ногами и спокойно посмотреть вокруг. Не нужно добиваться особого состояния."
+    },
+    "lt": {
+      "title": "Ar galima pradėti nuo kelių minučių?",
+      "body": "Taip. Galima skirti trumpą laiką, pajusti atramą po kojomis ir ramiai apsidairyti. Nebūtina siekti ypatingos būsenos."
+    }
+  },
+  {
+    "slug": "attention",
+    "category": 0,
+    "demo": true,
+    "ru": {
+      "title": "Что значит быть внимательнее к себе?",
+      "body": "Замечать происходящее без спешки с выводами. Например, спросить себя: что я сейчас чувствую и что мне нужно?"
+    },
+    "lt": {
+      "title": "Ką reiškia būti dėmesingesniam sau?",
+      "body": "Pastebėti, kas vyksta, neskubant daryti išvadų. Pavyzdžiui, paklausti savęs: ką dabar jaučiu ir ko man reikia?"
+    }
+  },
+  {
+    "slug": "pause",
+    "category": 2,
+    "demo": true,
+    "ru": {
+      "title": "Как дать себе паузу в разговоре?",
+      "body": "Можно сказать: «Мне нужно немного времени, чтобы подумать». Пауза помогает выбрать слова осознанно."
+    },
+    "lt": {
+      "title": "Kaip pokalbyje suteikti sau pauzę?",
+      "body": "Galima pasakyti: „Man reikia truputį laiko pagalvoti.“ Pauzė padeda sąmoningai pasirinkti žodžius."
+    }
+  }
+]
