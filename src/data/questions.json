@@ -10,7 +10,10 @@
     "lt": {
       "title": "Ar galima pradėti nuo kelių minučių?",
       "body": "Taip. Galima skirti trumpą laiką, pajusti atramą po kojomis ir ramiai apsidairyti. Nebūtina siekti ypatingos būsenos."
-    }
+    },
+    "topics": [
+      "meditation"
+    ]
   },
   {
     "slug": "attention",
@@ -23,7 +26,11 @@
     "lt": {
       "title": "Ką reiškia būti dėmesingesniam sau?",
       "body": "Pastebėti, kas vyksta, neskubant daryti išvadų. Pavyzdžiui, paklausti savęs: ką dabar jaučiu ir ko man reikia?"
-    }
+    },
+    "topics": [
+      "mind",
+      "heart"
+    ]
   },
   {
     "slug": "pause",
@@ -36,6 +43,10 @@
     "lt": {
       "title": "Kaip pokalbyje suteikti sau pauzę?",
       "body": "Galima pasakyti: „Man reikia truputį laiko pagalvoti.“ Pauzė padeda sąmoningai pasirinkti žodžius."
-    }
+    },
+    "topics": [
+      "mind",
+      "relationships"
+    ]
   }
 ]
