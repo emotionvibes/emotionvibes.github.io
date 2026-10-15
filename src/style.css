@@ -166,3 +166,16 @@ header{align-items:flex-start;min-height:112px;position:relative;z-index:20;gap:
 header .languages{padding-top:22px}
 @media(max-width:1100px){header{align-items:center;flex-wrap:wrap}.ev-nav-area{order:3;flex:0 0 100%;padding:0 0 8px}.ev-main-nav{justify-content:center}.ev-nav-dropdown{left:auto;right:0}}
 @media(max-width:700px){.ev-nav-area{display:none;order:4}.ev-nav-area:has(#nav.open){display:flex}.ev-main-nav{display:flex!important;align-items:stretch;flex-direction:column;gap:0}.ev-main-nav>a,.ev-nav-group>summary{display:block;padding:11px 4px}.ev-nav-dropdown{position:static;max-width:none;box-shadow:none;margin:0 0 10px 8px}.ev-action-nav{align-items:flex-start;flex-direction:column;padding:16px 0}.ev-action-note{line-height:1.4}header .languages{padding:0;margin-left:auto}}
+
+
+/* More legible, gentle navigation */
+.ev-main-nav{gap:clamp(13px,1.45vw,27px)}
+.ev-main-nav a,.ev-nav-group>summary{font-size:16px;font-weight:400;line-height:1.5;letter-spacing:.005em}
+.ev-nav-dropdown a,.ev-nav-dropdown span{font-size:15px;line-height:1.5}
+.ev-action-nav{gap:12px 18px;padding-top:15px;border-top:1px solid #b9914f40}
+.ev-action-nav>a{display:inline-flex;align-items:center;justify-content:center;text-align:center;min-height:46px;padding:11px 23px;border:1px solid var(--gold);border-radius:999px;font-size:15px;letter-spacing:0;text-decoration:none;color:var(--cream);background:transparent;transition:background .2s ease,color .2s ease,border-color .2s ease}
+.ev-action-nav>a:nth-of-type(2){background:var(--gold);color:var(--ink)}
+.ev-action-nav>a:hover,.ev-action-nav>a:focus-visible{background:var(--champagne);color:var(--ink);border-color:var(--champagne)}
+.ev-action-note{flex-basis:100%;text-align:center;font-size:11px;color:var(--sage)}
+@media(max-width:700px){.ev-main-nav a,.ev-nav-group>summary{font-size:17px}.ev-nav-dropdown a,.ev-nav-dropdown span{font-size:16px}.ev-action-nav>a{width:100%;font-size:16px;min-height:48px}.ev-action-note{text-align:left}}
+@media(prefers-reduced-motion:reduce){.ev-action-nav>a{transition:none}}
