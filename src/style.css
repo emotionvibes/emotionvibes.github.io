@@ -128,3 +128,12 @@ header .brand-symbol img{width:600px!important;height:600px!important;max-width:
 header .brand-name{font-size:32px}
 @media(max-width:1050px){header .brand{flex-basis:240px;min-width:240px;max-width:240px;width:240px;gap:10px}header .brand-symbol{width:68px;height:68px;flex-basis:68px}header .brand-symbol img{width:508px!important;height:508px!important}header .brand-name{font-size:25px}}
 @media(max-width:700px){header .brand{flex-basis:202px;min-width:202px;max-width:202px;width:202px;gap:8px}header .brand-symbol{width:58px;height:58px;flex-basis:58px}header .brand-symbol img{width:430px!important;height:430px!important}header .brand-name{font-size:22px}}
+
+
+/* Fix actual root cause: original source includes margins and wording.
+   Scale to emblem WIDTH, not entire Canva page; never clip its circle. */
+header .brand-symbol{position:relative;width:88px;height:88px;flex-basis:88px;overflow:hidden;border-radius:0}
+header .brand-symbol img{position:absolute!important;width:145px!important;height:145px!important;max-width:none!important;max-height:none!important;left:50%!important;top:50%!important;transform:translate(-50%,-40%)!important;clip-path:none!important;object-fit:contain!important;filter:brightness(1.65) contrast(1.17)!important}
+header .brand-name{font-size:32px}
+@media(max-width:1050px){header .brand-symbol{width:75px;height:75px;flex-basis:75px}header .brand-symbol img{width:124px!important;height:124px!important}}
+@media(max-width:700px){header .brand-symbol{width:64px;height:64px;flex-basis:64px}header .brand-symbol img{width:106px!important;height:106px!important}header .brand-name{font-size:23px}}
