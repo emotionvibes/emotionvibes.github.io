@@ -95,3 +95,18 @@ header .brand-name{font-family:Georgia,serif;font-size:21px;font-weight:400;lett
 .ev-intersection i{font-style:normal;color:var(--gold);font-size:28px;align-self:flex-end}
 @media(max-width:1050px){header .brand{flex-basis:165px;min-width:165px;width:165px}header .brand-name{font-size:16px}.ev-intersection{left:-10%;width:92%;padding:25px}}
 @media(max-width:700px){header .brand{flex-basis:180px;min-width:180px;width:180px;height:70px}header .brand img{width:60px!important;height:60px!important}.ev-hero-art{overflow:hidden}.ev-intersection{top:22%;left:8%;width:84%;min-height:150px;padding:20px}.ev-intersection strong{font-size:25px}}
+
+
+/* October editorial adjustments: circular symbol, larger brand, balanced overlap */
+header .brand{flex:0 0 256px;width:256px;min-width:256px;max-width:256px;gap:13px}
+header .brand img{width:70px!important;height:70px!important;object-fit:cover!important;object-position:center 12%!important;clip-path:circle(37% at 50% 34%);transform:scale(1.25)!important;flex:0 0 70px}
+header .brand-name{font-size:27px;line-height:1;white-space:nowrap}
+.ev-hero-copy{position:relative;z-index:2}
+.ev-hero-art{position:relative;z-index:1}
+.ev-intersection{top:57%;left:10%;width:78%;min-height:186px;padding:30px 36px;background:linear-gradient(140deg,#002e2ae6,#00413cb8)}
+.ev-intersection strong{font-size:clamp(29px,3.1vw,49px)}
+.ev-intersection span{font-size:12px}
+.question-row{grid-template-columns:76px minmax(0,1fr) 175px 30px}
+.question-row-num{font-family:Georgia,serif;color:var(--gold);font-size:19px;font-variant-numeric:tabular-nums;letter-spacing:.05em}
+@media(max-width:1050px){header .brand{flex-basis:205px;min-width:205px;max-width:205px;width:205px}header .brand-name{font-size:22px}.ev-intersection{left:7%;width:86%}.question-row{grid-template-columns:58px minmax(0,1fr) 130px 25px}}
+@media(max-width:700px){header .brand{flex-basis:185px;min-width:185px;max-width:185px;width:185px}header .brand-name{font-size:21px}header .brand img{width:57px!important;height:57px!important;flex-basis:57px}.ev-intersection{top:28%;left:7%;width:86%;min-height:154px;padding:22px}.ev-intersection strong{font-size:26px}.question-row{grid-template-columns:48px minmax(0,1fr) 24px}.question-row-num{font-size:15px}}
