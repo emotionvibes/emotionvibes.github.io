@@ -81,3 +81,17 @@ header nav a:hover,header nav a:focus-visible{color:var(--light-gold)}
 @media(max-width:1050px){header{gap:14px}.ev-hero{grid-template-columns:1fr 1fr}.ev-hero-side{grid-column:1/-1}.ev-directions{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){header .brand{flex-basis:140px;width:140px;min-width:140px;height:66px}header .brand img{width:355px!important;height:355px!important}.ev-hero{grid-template-columns:1fr}.ev-hero-copy{padding:58px 7%}.ev-hero-art{min-height:270px}.ev-hero-side{gap:17px;flex-wrap:wrap;padding:25px 7%;justify-content:flex-start}.ev-hero-side .ev-round{margin:0 0 0 auto;width:92px;height:92px;flex-basis:92px}.ev-section{padding:65px 6%}.ev-directions{grid-template-columns:1fr}.ev-direction{min-height:260px;padding:30px}.ev-direction h3{font-size:37px}}
 @media(prefers-reduced-motion:reduce){.ev-direction,.ev-feature-questions>a,.ev-hero-side .ev-round{transition:none}}
+
+
+/* Identity and crossing geometry refinement */
+header .brand{position:relative;display:flex;flex:0 0 210px;width:210px;max-width:210px;min-width:210px;height:84px;overflow:visible;isolation:auto;align-items:center;gap:10px;text-decoration:none}
+header .brand img{position:static!important;transform:none!important;width:72px!important;height:72px!important;max-width:72px!important;max-height:72px!important;object-fit:cover!important;object-position:center 31%!important;filter:brightness(1.3) contrast(1.13)}
+header .brand-name{font-family:Georgia,serif;font-size:21px;font-weight:400;letter-spacing:.015em;color:var(--light-gold);white-space:nowrap}
+.ev-hero-art{overflow:visible;isolation:isolate}
+.ev-hero-art .ev-ring{z-index:1}
+.ev-intersection{position:absolute;z-index:2;top:49%;left:-14%;width:75%;min-height:210px;padding:42px 28px;border:1px solid var(--gold);background:linear-gradient(130deg,#002e2ad9,#00413cc2);box-shadow:0 22px 80px #00211e45;display:flex;flex-direction:column;justify-content:center;gap:16px;backdrop-filter:blur(5px)}
+.ev-intersection span{color:var(--light-gold);font-size:11px;letter-spacing:.22em}
+.ev-intersection strong{font-family:Georgia,serif;font-size:clamp(25px,2.9vw,45px);font-weight:400;line-height:1.1;color:var(--cream)}
+.ev-intersection i{font-style:normal;color:var(--gold);font-size:28px;align-self:flex-end}
+@media(max-width:1050px){header .brand{flex-basis:165px;min-width:165px;width:165px}header .brand-name{font-size:16px}.ev-intersection{left:-10%;width:92%;padding:25px}}
+@media(max-width:700px){header .brand{flex-basis:180px;min-width:180px;width:180px;height:70px}header .brand img{width:60px!important;height:60px!important}.ev-hero-art{overflow:hidden}.ev-intersection{top:22%;left:8%;width:84%;min-height:150px;padding:20px}.ev-intersection strong{font-size:25px}}
