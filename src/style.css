@@ -179,3 +179,8 @@ header .languages{padding-top:22px}
 .ev-action-note{flex-basis:100%;text-align:center;font-size:11px;color:var(--sage)}
 @media(max-width:700px){.ev-main-nav a,.ev-nav-group>summary{font-size:17px}.ev-nav-dropdown a,.ev-nav-dropdown span{font-size:16px}.ev-action-nav>a{width:100%;font-size:16px;min-height:48px}.ev-action-note{text-align:left}}
 @media(prefers-reduced-motion:reduce){.ev-action-nav>a{transition:none}}
+
+
+/* Critical fix: dropdown panels must be hidden when their details are closed. */
+.ev-nav-group:not([open]) > .ev-nav-dropdown{display:none!important}
+.ev-nav-group[open] > .ev-nav-dropdown{display:flex}
