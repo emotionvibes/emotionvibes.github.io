@@ -378,3 +378,18 @@ content:
     label: LT
     type: string
     list: true
+  - name: topics
+    label: Raktažodžiai / temos (pridėkite naują)
+    type: object
+    list: true
+    fields:
+    - name: key
+      label: Temos kodas (lotyniškomis mažosiomis, pvz. miegas)
+      type: string
+    - name: ru
+      label: Temos pavadinimas rusiškai
+      type: string
+    - name: lt
+      label: Temos pavadinimas lietuviškai
+      type: string
+
