@@ -34,3 +34,7 @@ YouTube nesiunčiamos užklausos iki paspaudimo įkelti grotuvą; nėra išorini
 ## Before any public launch
 
 Owner approval is required. Replace/approve demo content, confirm contacts, original images and privacy text; verify CMS editor using the owner account. Remove preview `noindex` and robots exclusion, add canonical links and sitemap, and only then separately enable a deployment. `noindex` is not access control.
+
+## Klausimų filtrai
+
+Kiekvienam klausimui Pages CMS lauke **Temų žymos** galima pridėti vieną arba kelis raktažodžius: `mind` (Ум/Protas), `heart` (Сердце/Širdis), `sleep` (Сон/Miegas), `meditation` (Медитация/Meditacija), `relationships` (Отношения/Santykiai), `emotions` (Эмоции/Emocijos). Rašyti tik nurodytas anglų kalbos reikšmes mažosiomis raidėmis. Svetainėje jos rodomos rusų arba lietuvių kalba. Paspaudus vieną žymą, rodomi tik jai priskirti klausimai; paieška ir kategorijų filtras veikia kartu. Klausimas gali turėti kelias žymas. Dabartiniai klausimai – tik demonstraciniai. CMS prisijungimas ir išsaugojimas vis dar nėra patikrinti.
