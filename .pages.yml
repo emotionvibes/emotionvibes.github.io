@@ -20,24 +20,10 @@ content:
     type: number
     description: "0 = Присутствие / Buvimas, 1 = Медитация / Meditacija, 2 = Отношения / Santykiai"
   - name: topics
-    label: Temos (galima pasirinkti kelias)
-    type: select
-    options:
-      multiple: true
-      values:
-      - name: mind
-        label: Protas / Ум
-      - name: heart
-        label: Širdis / Сердце
-      - name: sleep
-        label: Miegas / Сон
-      - name: meditation
-        label: Meditacija / Медитация
-      - name: relationships
-        label: Santykiai / Отношения
-      - name: emotions
-        label: Emocijos / Эмоции
-    description: "Pasirinkite vieną arba kelias temas. Svetainės lankytojai matys jas pasirinkta kalba."
+    label: Klausimo raktinių temų kodai (gali būti keli)
+    type: string
+    list: true
+    description: "Temų pavadinimai ir nauji kodai tvarkomi skiltyje Klausimų temos. Įrašykite to paties kodo reikšmę, pvz. mind arba savo sukurtą."
   - name: demo
     label: Pavyzdinis turinys
     type: boolean
