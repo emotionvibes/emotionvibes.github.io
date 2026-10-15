@@ -110,3 +110,12 @@ header .brand-name{font-size:27px;line-height:1;white-space:nowrap}
 .question-row-num{font-family:Georgia,serif;color:var(--gold);font-size:19px;font-variant-numeric:tabular-nums;letter-spacing:.05em}
 @media(max-width:1050px){header .brand{flex-basis:205px;min-width:205px;max-width:205px;width:205px}header .brand-name{font-size:22px}.ev-intersection{left:7%;width:86%}.question-row{grid-template-columns:58px minmax(0,1fr) 130px 25px}}
 @media(max-width:700px){header .brand{flex-basis:185px;min-width:185px;max-width:185px;width:185px}header .brand-name{font-size:21px}header .brand img{width:57px!important;height:57px!important;flex-basis:57px}.ev-intersection{top:28%;left:7%;width:86%;min-height:154px;padding:22px}.ev-intersection strong{font-size:26px}.question-row{grid-template-columns:48px minmax(0,1fr) 24px}.question-row-num{font-size:15px}}
+
+
+/* Correct original logo crop: show the round emblem only, not the Canva page */
+header .brand{display:flex;align-items:center;gap:15px;overflow:visible;flex:0 0 270px;min-width:270px;max-width:270px;width:270px}
+header .brand-symbol{display:block;position:relative;width:72px;height:72px;flex:0 0 72px;overflow:hidden;border-radius:50%;background:transparent}
+header .brand-symbol img{position:absolute!important;display:block;max-width:none!important;max-height:none!important;width:540px!important;height:540px!important;top:50%!important;left:50%!important;object-fit:fill!important;object-position:center!important;transform:translate(-50%,-50%)!important;clip-path:none!important;filter:none!important}
+header .brand-name{font-size:29px;line-height:1.15;color:var(--light-gold)}
+@media(max-width:1050px){header .brand{flex-basis:225px;min-width:225px;max-width:225px;width:225px;gap:9px}header .brand-symbol{width:60px;height:60px;flex-basis:60px}header .brand-symbol img{width:450px!important;height:450px!important}header .brand-name{font-size:24px}}
+@media(max-width:700px){header .brand{flex-basis:194px;min-width:194px;max-width:194px;width:194px}header .brand-symbol{width:54px;height:54px;flex-basis:54px}header .brand-symbol img{width:400px!important;height:400px!important}header .brand-name{font-size:21px}}
