@@ -15,6 +15,11 @@ content:
   - name: category
     label: Temos numeris (0, 1, 2)
     type: number
+  - name: topics
+    label: Temų žymos (galima kelias)
+    type: string
+    list: true
+    description: "Pasirinkite: mind, heart, sleep, meditation, relationships, emotions. Galima kelias žymas vienam klausimui."
   - name: demo
     label: Pavyzdinis turinys
     type: boolean
