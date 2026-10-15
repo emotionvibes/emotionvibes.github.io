@@ -10,11 +10,15 @@ content:
   list: true
   fields:
   - name: slug
-    label: Unikalus adresas (lotyniškos raidės)
+    label: Unikalus adresas (pvz., apie-prota)
     type: string
+    required: true
+    pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    description: "Tik mažosios lotyniškos raidės, skaičiai ir brūkšneliai. Vienam klausimui unikalus, vėliau nekeisti."
   - name: category
-    label: Temos numeris (0, 1, 2)
+    label: Pagrindinė kategorija (0 Buvimas, 1 Meditacija, 2 Santykiai)
     type: number
+    description: "0 = Присутствие / Buvimas, 1 = Медитация / Meditacija, 2 = Отношения / Santykiai"
   - name: topics
     label: Temos (galima pasirinkti kelias)
     type: select
