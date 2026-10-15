@@ -190,3 +190,17 @@ header .languages{padding-top:22px}
 .ev-nav-group::after{content:"";position:absolute;left:0;right:-12px;top:100%;height:18px;pointer-events:none}
 .ev-nav-group[open]::after{pointer-events:auto}
 .ev-nav-dropdown{top:100%!important;margin-top:0!important}
+
+
+/* Editorial portrait and quote composition — preview */
+.ev-hero.ev-portrait-layout{display:grid;grid-template-columns:1fr 1fr;min-height:670px;position:relative;background:#00211e;isolation:isolate}
+.ev-portrait-layout .ev-hero-copy,.ev-portrait-layout .ev-hero-side{display:none}
+.ev-portrait-layout .ev-hero-art{min-width:0;grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;overflow:visible;background:none}
+.ev-portrait-photo{position:relative;z-index:2;background:#070909;min-height:670px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.ev-portrait-photo img{display:block;width:100%;height:100%;max-height:740px;object-fit:contain;object-position:center bottom}
+.ev-portrait-quote{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:70px clamp(25px,4vw,95px);background:radial-gradient(ellipse at 70% 45%,#49777266,transparent 70%),linear-gradient(140deg,#002e2a,#00413c 70%,#1b3f3f);color:#f5ede0}
+.ev-portrait-quote .ev-quote-mark{font:40px Georgia,serif;color:#b9914f;margin-bottom:25px}
+.ev-portrait-quote h1{font-family:Georgia,'Times New Roman',serif;text-transform:uppercase;letter-spacing:.035em;font-weight:400;font-size:clamp(36px,4.3vw,72px);line-height:1.12;color:#dac59a;margin:0;max-width:750px}
+.ev-portrait-quote .ev-quote-sub{font-family:Georgia,serif;font-style:italic;font-size:clamp(18px,1.8vw,29px);line-height:1.5;max-width:520px;margin-top:34px;color:#f5ede0}
+.ev-portrait-quote:after{content:"";position:absolute;inset:24px;border:1px solid #b9914f45;pointer-events:none}
+@media(max-width:800px){.ev-hero.ev-portrait-layout{min-height:auto}.ev-portrait-layout .ev-hero-art{grid-template-columns:1fr}.ev-portrait-photo{min-height:390px;height:55vh;max-height:620px}.ev-portrait-quote{min-height:410px;padding:60px 30px}.ev-portrait-quote h1{font-size:clamp(34px,8vw,56px)}}
