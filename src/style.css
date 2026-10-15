@@ -137,3 +137,12 @@ header .brand-symbol img{position:absolute!important;width:145px!important;heigh
 header .brand-name{font-size:32px}
 @media(max-width:1050px){header .brand-symbol{width:75px;height:75px;flex-basis:75px}header .brand-symbol img{width:124px!important;height:124px!important}}
 @media(max-width:700px){header .brand-symbol{width:64px;height:64px;flex-basis:64px}header .brand-symbol img{width:106px!important;height:106px!important}header .brand-name{font-size:23px}}
+
+
+/* Final uploaded logo asset - no cropping or positioning tricks */
+header .brand{gap:13px}
+header .brand-symbol{width:76px;height:76px;flex:0 0 76px;position:relative;overflow:visible;border-radius:0}
+header .brand-symbol img{position:static!important;display:block!important;width:76px!important;height:76px!important;max-width:76px!important;max-height:76px!important;transform:none!important;object-fit:contain!important;object-position:center!important;clip-path:none!important;filter:brightness(1.18)!important}
+header .brand-name{font-size:33px}
+@media(max-width:1050px){header .brand-symbol{width:64px;height:64px;flex-basis:64px}header .brand-symbol img{width:64px!important;height:64px!important;max-width:64px!important;max-height:64px!important}header .brand-name{font-size:25px}}
+@media(max-width:700px){header .brand-symbol{width:56px;height:56px;flex-basis:56px}header .brand-symbol img{width:56px!important;height:56px!important;max-width:56px!important;max-height:56px!important}header .brand-name{font-size:23px}}
