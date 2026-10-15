@@ -16,10 +16,24 @@ content:
     label: Temos numeris (0, 1, 2)
     type: number
   - name: topics
-    label: Temų žymos (galima kelias)
-    type: string
-    list: true
-    description: "Pasirinkite: mind, heart, sleep, meditation, relationships, emotions. Galima kelias žymas vienam klausimui."
+    label: Temos (galima pasirinkti kelias)
+    type: select
+    options:
+      multiple: true
+      values:
+      - name: mind
+        label: Protas / Ум
+      - name: heart
+        label: Širdis / Сердце
+      - name: sleep
+        label: Miegas / Сон
+      - name: meditation
+        label: Meditacija / Медитация
+      - name: relationships
+        label: Santykiai / Отношения
+      - name: emotions
+        label: Emocijos / Эмоции
+    description: "Pasirinkite vieną arba kelias temas. Svetainės lankytojai matys jas pasirinkta kalba."
   - name: demo
     label: Pavyzdinis turinys
     type: boolean
