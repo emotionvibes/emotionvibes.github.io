@@ -8,5 +8,37 @@
     "Buvimas",
     "Meditacija",
     "Santykiai"
+  ],
+  "topics": [
+    {
+      "key": "mind",
+      "ru": "Ум",
+      "lt": "Protas"
+    },
+    {
+      "key": "heart",
+      "ru": "Сердце",
+      "lt": "Širdis"
+    },
+    {
+      "key": "sleep",
+      "ru": "Сон",
+      "lt": "Miegas"
+    },
+    {
+      "key": "meditation",
+      "ru": "Медитация",
+      "lt": "Meditacija"
+    },
+    {
+      "key": "relationships",
+      "ru": "Отношения",
+      "lt": "Santykiai"
+    },
+    {
+      "key": "emotions",
+      "ru": "Эмоции",
+      "lt": "Emocijos"
+    }
   ]
 }
