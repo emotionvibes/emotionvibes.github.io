@@ -35,8 +35,10 @@ YouTube nesiunčiamos užklausos iki paspaudimo įkelti grotuvą; nėra išorini
 
 Owner approval is required. Replace/approve demo content, confirm contacts, original images and privacy text; verify CMS editor using the owner account. Remove preview `noindex` and robots exclusion, add canonical links and sitemap, and only then separately enable a deployment. `noindex` is not access control.
 
-## Klausimų filtrai ir turinio redagavimas
+## Klausimų filtrai ir naujos temos
 
-Redaguojant klausimą Pages CMS, laukelyje **Temos (galima pasirinkti kelias)** pasirenkamos žymos iš sąrašo: Protas / Ум, Širdis / Сердце, Miegas / Сон, Meditacija / Медитация, Santykiai / Отношения, Emocijos / Эмоции. Angliškų kodų ranka rašyti nereikia. Tą patį klausimą galima priskirti kelioms temoms. Svetainėje vieno paspaudimo filtrai veikia kartu su teksto paieška ir kategorijomis, o „Išvalyti filtrus“ viską atstato.
+Pages CMS skiltyje „Klausimų temos“ galima papildyti `topics` sąrašą. Kiekvienai naujai temai reikia trijų laukų: `key` (trumpas unikalus kodas mažosiomis lotyniškomis raidėmis, pvz. `sapnai`), `ru` (pvz. `Сновидения`) ir `lt` (pvz. `Sapnai`). Svetainės temų mygtukai atsiranda iš šio sąrašo.
 
-Naujus klausimus redaktoriuje įrašykite tik anonimizuotus ir autorės patvirtintus; viskas GitHub viešoje saugykloje, net juodraščiai, yra matoma kitiems. Dabartiniai klausimai yra demonstraciniai. Pages CMS prisijungimas ir tikras išsaugojimas dar nepatikrinti, tam reikės savininkės veiksmų.
+Skiltyje „Klausimai ir atsakymai“ kiekvienam įrašui prie „Klausimo raktinių temų kodai“ pridedamas vienas ar keli tie patys kodai. Vienam klausimui galima kelios temos. Redaktoriaus veikimas realioje paskyroje dar turi būti patikrintas. Saugykla yra vieša: nepridėkite nepatvirtintų privačių klausimų ar asmens duomenų.
+
+Klausimų sąrašas svetainėje rodomas kompaktiškomis eilutėmis. Tai tinkamesnis formatas tūkstančiui įrašų, bet prieš viešą paleidimą dideliam kiekiui reikės našumo bandymo ir, jei reikia, puslapiavimo arba dalinio rezultatų pateikimo.
