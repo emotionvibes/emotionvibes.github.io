@@ -204,3 +204,15 @@ header .languages{padding-top:22px}
 .ev-portrait-quote .ev-quote-sub{font-family:Georgia,serif;font-style:italic;font-size:clamp(18px,1.8vw,29px);line-height:1.5;max-width:520px;margin-top:34px;color:#f5ede0}
 .ev-portrait-quote:after{content:"";position:absolute;inset:24px;border:1px solid #b9914f45;pointer-events:none}
 @media(max-width:800px){.ev-hero.ev-portrait-layout{min-height:auto}.ev-portrait-layout .ev-hero-art{grid-template-columns:1fr}.ev-portrait-photo{min-height:390px;height:55vh;max-height:620px}.ev-portrait-quote{min-height:410px;padding:60px 30px}.ev-portrait-quote h1{font-size:clamp(34px,8vw,56px)}}
+
+
+/* Approved philosophical hero prototype: cream ground, overlapping emerald square */
+.ev-hero.ev-portrait-layout{background:#f5ede0!important;display:block!important;min-height:unset!important;padding:70px clamp(25px,6vw,110px) 85px}
+.ev-portrait-layout .ev-hero-art{display:grid!important;grid-template-columns:54% 46%!important;position:relative!important;overflow:visible!important;background:transparent!important;max-width:1500px;margin:0 auto;align-items:center}
+.ev-portrait-photo{background:#080808!important;min-height:590px!important;height:660px!important;z-index:1!important;overflow:hidden!important}
+.ev-portrait-photo img{width:100%;height:100%;max-height:none!important;object-fit:cover!important;object-position:center 40%!important}
+.ev-portrait-quote{z-index:3;position:relative;margin-left:-13%;width:113%;min-height:505px;padding:60px clamp(34px,4.1vw,70px)!important;background:#002e2a!important;align-items:flex-start!important;text-align:left!important}
+.ev-portrait-quote:after{display:none!important}.ev-portrait-quote .ev-quote-mark{display:none}
+.ev-portrait-quote h1{font-family:Georgia,'Times New Roman',serif!important;letter-spacing:.017em;font-size:clamp(32px,3.3vw,58px)!important;font-weight:400!important;color:#dac59a!important;line-height:1.17!important;text-transform:uppercase}
+.ev-portrait-quote .ev-quote-sub{font-family:Georgia,'Times New Roman',serif;font-size:clamp(19px,1.65vw,27px)!important;font-style:italic;margin-top:34px!important;color:#f5ede0!important;line-height:1.42}
+@media(max-width:800px){.ev-hero.ev-portrait-layout{padding:28px 17px 50px}.ev-portrait-layout .ev-hero-art{display:block!important}.ev-portrait-photo{height:490px!important;min-height:0!important}.ev-portrait-quote{margin:-45px 0 0 auto!important;width:94%;min-height:320px!important;padding:40px 27px!important}.ev-portrait-quote h1{font-size:clamp(29px,7.4vw,42px)!important}}
