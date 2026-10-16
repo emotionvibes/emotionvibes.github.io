@@ -216,3 +216,9 @@ header .languages{padding-top:22px}
 .ev-portrait-quote h1{font-family:Georgia,'Times New Roman',serif!important;letter-spacing:.017em;font-size:clamp(32px,3.3vw,58px)!important;font-weight:400!important;color:#dac59a!important;line-height:1.17!important;text-transform:uppercase}
 .ev-portrait-quote .ev-quote-sub{font-family:Georgia,'Times New Roman',serif;font-size:clamp(19px,1.65vw,27px)!important;font-style:italic;margin-top:34px!important;color:#f5ede0!important;line-height:1.42}
 @media(max-width:800px){.ev-hero.ev-portrait-layout{padding:28px 17px 50px}.ev-portrait-layout .ev-hero-art{display:block!important}.ev-portrait-photo{height:490px!important;min-height:0!important}.ev-portrait-quote{margin:-45px 0 0 auto!important;width:94%;min-height:320px!important;padding:40px 27px!important}.ev-portrait-quote h1{font-size:clamp(29px,7.4vw,42px)!important}}
+
+
+/* Refined editorial typography and concise practice descriptor */
+.ev-portrait-quote h1{font-family:'Bodoni MT','Didot','Times New Roman',serif!important;font-weight:400!important;letter-spacing:.018em!important}
+.ev-hero-practices{font-family:Arial,Helvetica,sans-serif!important;font-size:clamp(13px,1vw,16px)!important;font-style:normal!important;line-height:1.8!important;letter-spacing:.015em;color:#e9d9b8!important;max-width:530px;margin:22px 0 0!important}
+.ev-portrait-quote .ev-quote-sub{margin-top:25px!important}
